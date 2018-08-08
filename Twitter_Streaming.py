@@ -4,10 +4,10 @@ from tweepy import Stream
 import time
 import json
 
-consumerKey = "HxaK1M9Wcko3vkZ7SiQmaE5Lh"
-consumerSecret = "0YsPz8omnAqahERs5ksp319j2qgwf4APrinlz8SgDQX3HbrAkK"
-accessToken = "2495942020-ZUxKTRI8GOaXRLPuqQm5s5QZuF07wXfBggAiT8E"
-accessTokenSecret = "pFNpCwUcLUjzFNKcvnRlvwW0YKsYmCRY8OOvZPH7nJsAS"
+consumerKey = ""
+consumerSecret = ""
+accessToken = ""
+accessTokenSecret = ""
 
 
 class TwitterStreamer():

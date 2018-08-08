@@ -20,6 +20,9 @@ session = requests.session()
 #intialize system time formatting
 now = datetime.datetime.now()
 
+#drugs_info = Drug_names.return_info()
+#list_of_urls = Drug_names.return_urls()
+
 drugs_info = pillbox_names.return_info()
 list_of_urls = pillbox_names.return_urls()
 
@@ -114,7 +117,6 @@ def send_data():
 This function enables multithreading by creating a new thread for every url in the 'url list'.  It calls and adds 
 the "parse" function for every rxcui/url to a pool.
 
-
 """
 def parse_pool():
     thread_pool = []
@@ -137,11 +139,9 @@ def parse_pool():
 
 
 
-"""
-Databse intialization
-"""
-cnx = mysql.connector.connect(user='drugs_db', password='drugsdb_2018',
-                              host='drugsdbinstance.c7abkdznprtj.us-east-1.rds.amazonaws.com',
+#Databse intialization
+cnx = mysql.connector.connect(user='', password='',
+                              host='',
                               database='drugsdb')
 
 cursor = cnx.cursor()

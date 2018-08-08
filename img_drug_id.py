@@ -6,8 +6,8 @@ This file simply puts each drug_id corresponding to the image link RXCUI into th
 
 import mysql.connector
 
-cnx = mysql.connector.connect(user='drugs_db', password='drugsdb_2018',
-                              host='drugsdbinstance.c7abkdznprtj.us-east-1.rds.amazonaws.com',
+cnx = mysql.connector.connect(user='', password='',
+                              host='',
                               database='drugsdb')
 
 cursor = cnx.cursor()

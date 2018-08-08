@@ -2,8 +2,8 @@ import mysql.connector
 import adverse_drug_id
 
 # initialize database connection
-cnx = mysql.connector.connect(user='drugs_db', password='drugsdb_2018',
-                              host='drugsdbinstance.c7abkdznprtj.us-east-1.rds.amazonaws.com',
+cnx = mysql.connector.connect(user='', password='',
+                              host='',
                               database='drugsdb')
 # initialize cursor
 cursor = cnx.cursor()

@@ -85,8 +85,8 @@ Initialize the SQL connection
 
 """
 
-cnx = mysql.connector.connect(user='drugs_db', password='drugsdb_2018',
-                              host='drugsdbinstance.c7abkdznprtj.us-east-1.rds.amazonaws.com',
+cnx = mysql.connector.connect(user='', password='',
+                              host='',
                               database='drugsdb')
 
 cursor = cnx.cursor()

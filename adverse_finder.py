@@ -51,11 +51,11 @@ options.add_experimental_option("excludeSwitches",["ignore-certificate-errors"])
 options.add_argument('--disable-gpu')
 options.add_argument('--headless')
 
-browser = webdriver.Chrome(options= options, executable_path=r'/Users/KennethLund/Downloads/chromedriver')
+browser = webdriver.Chrome(options= options, executable_path=r'/Users/name/Downloads/chromedriver')
 browser.get(url)
 
-cnx = mysql.connector.connect(user='drugs_db', password='drugsdb_2018',
-                              host='drugsdbinstance.c7abkdznprtj.us-east-1.rds.amazonaws.com',
+cnx = mysql.connector.connect(user='', password='',
+                              host='',
                               database='drugsdb')
 #initialize cursor
 cursor = cnx.cursor()
