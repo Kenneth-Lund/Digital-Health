@@ -3,9 +3,6 @@ This file takes in the 'pillbox' or 'Drug_names' file and uses the 'urls' create
 scrape the descriptions for each drug.
 """
 
-
-
-
 import requests
 import time
 import datetime
@@ -25,9 +22,6 @@ now = datetime.datetime.now()
 
 drugs_info = pillbox_names.return_info()
 list_of_urls = pillbox_names.return_urls()
-
-
-
 
 
 
